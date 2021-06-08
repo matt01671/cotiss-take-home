@@ -1,11 +1,10 @@
-import './App.css'
-import CategorySearch from './CategorySearch';
+import './App.css';
+import SearchBar from './SearchBar';
 
 function App() {
-  
   return (
-    <div className="search-bar">
-      <CategorySearch/>
+    <div>
+      <SearchBar />
     </div>
   );
 }
